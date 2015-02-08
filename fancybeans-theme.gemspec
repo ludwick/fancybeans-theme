@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'octopress-genesis-theme/version'
+require 'fancybeans-theme/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "octopress-genesis-theme"
+  spec.name          = "fancybeans-theme"
   spec.version       = Octopress::Genesis::VERSION
   spec.authors       = ["Brandon Mathis"]
   spec.email         = ["brandon@imathis.com"]
