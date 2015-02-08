@@ -5,7 +5,7 @@ require 'fancybeans-theme/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "fancybeans-theme"
-  spec.version       = Octopress::Genesis::VERSION
+  spec.version       = Octopress::FancyBeans::VERSION
   spec.authors       = ["Brandon Mathis"]
   spec.email         = ["brandon@imathis.com"]
   spec.summary       = %q{A Jekyll theme built on Octopress Ink}
