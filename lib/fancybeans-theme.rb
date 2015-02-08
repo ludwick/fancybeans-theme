@@ -19,7 +19,7 @@ Octopress::Ink.add_plugin({
   gem:           "fancybeans-theme",
   path:          File.expand_path(File.join(File.dirname(__FILE__), "../")),
   type:          "theme",
-  version:       Octopress::Genesis::VERSION,
+  version:       Ludwick::FancyBeans::VERSION,
   source_url:    "https://github.com/ludwick/fancybeans-theme",
   description:   "A minimalist theme for Jekyll sites build on Octopress Ink"
 })
