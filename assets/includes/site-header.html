@@ -1,4 +1,7 @@
+{% if theme.header_image %}<img class="site-image" src="{% return theme.header_image %}">{% endif %}
 <header role="banner" class="site-header">
-  <h1 class="site-title"><a class="site-title-link" href="{% return site.root || '/' %}">{{ theme.title }}</a></h1>
+  <h1 class="site-title">
+		<a class="site-title-link" href="{% return site.root || '/' %}">{{ theme.title }}</a>
+	</h1>
   {% if theme.subtitle %}<p class='site-subtitle'>{{ theme.subtitle }}</p>{% endif %}
 </header>

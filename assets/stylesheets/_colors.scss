@@ -1,16 +1,15 @@
-$site-bg:            #edefef;
-$main-bg:            #f5f6f6;
-$page-border:        #dadede;
-
-$accent-color:       #e46767; // pale red
-
+// Text colors
 $text-color:         #444;
 $medium-text-color:  #666;
 $light-text-color:   #888;
 $link-color:         #4A89DC;
+$accent-color:       #F2C852; // pale orange
+$site-title-color:   #555555;
+$site-nav-color:     $site-title-color;
 
-$site-header-bg:     #edefef;
-$site-title-color:   #555;
-$site-nav-color:     #333;
+// Background & non-text colors:
+$site-header-bg:     #E1B5F7;
+$main-bg:            #F3E6FA;
+$page-border:        #EDE5DA;
 
-$gray:               #8d9297;
+

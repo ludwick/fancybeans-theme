@@ -10,6 +10,8 @@
   @include at-least($medium) {
     padding: 1rem 1.5rem;
   }
+
+  // height: 2rem;
 }
 
 .site-header {
@@ -17,9 +19,19 @@
   display: table-cell;
 }
 
+.site-image {
+  display: table-cell;
+}
+
+@media screen and (max-width: 480px)  {
+ .site-image {
+  display: none;
+ }
+}
+
 .site-title {
   margin: 0;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
 }
 
 .site-title-link {
