@@ -8,5 +8,5 @@
 {% if page.description %}<meta name="description" content="{{ page.description | strip_html }}">{% endif %}
 {% css_asset_tag %}
 {% yield head %}
-{% include google_analytics.html %}
+{% include theme:google_analytics.html %}
 
